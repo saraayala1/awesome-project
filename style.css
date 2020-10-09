@@ -1,13 +1,32 @@
-#whole-page {
+body {
+  background-attachment: url("javyson/knee.jpg");
   margin: auto;
   margin-top: 40px;
 }
+
 h1 {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 50px;
+  font-weight: lighter;
+  margin: auto;
+  margin-top: 20%;
   text-align: center;
 }
-p {
-  font-size: larger;
+
+#header {
   margin: auto;
-  max-width: 60%;
+  margin-bottom: 5%;
+  margin-top: 5%;
   text-align: center;
+}
+footer button {
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  padding: 10px 20px;
+}
+button:hover {
+  background-color: blue;
+  color: white;
 }
