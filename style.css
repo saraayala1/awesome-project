@@ -1,9 +1,33 @@
-body {
-  background-attachment: url("javyson/knee.jpg");
+#header {
   margin: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+}
+.href {
+  color: black;
+  font-family: "Sansita Swashed", cursive;
+  text-decoration: none;
+  text-shadow: white;
+}
+.href:hover {
+  color: white;
+  text-decoration: none;
+  text-shadow: black;
+}
+.wholePage {
+  background-image: url("knee.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border-style: solid 1px white;
+  margin: auto;
+  max-width: 600px;
+}
+body {
+  color: black;
   margin-top: 40px;
 }
-
 h1 {
   font-family: "Sansita Swashed", cursive;
   font-size: 50px;
@@ -11,17 +35,13 @@ h1 {
   margin: auto;
   margin-top: 20%;
   text-align: center;
+  text-shadow: white;
 }
 
-#header {
-  margin: auto;
-  margin-bottom: 5%;
-  margin-top: 5%;
-  text-align: center;
-}
 footer button {
   border-radius: 20px;
   display: block;
+  font-family: "Sansita Swashed", cursive;
   margin: auto;
   margin-top: 5%;
   padding: 10px 20px;
