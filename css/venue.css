@@ -17,6 +17,7 @@
 }
 body {
   background-color: black;
+  color: white;
   font-family: "Sansita Swashed", cursive;
 }
 button {
@@ -25,7 +26,6 @@ button {
   display: block;
   font-family: "Sansita Swashed", cursive;
   font-size: 20px;
-  margin: auto;
   margin-top: 15px;
   padding: 10px 20px;
   text-shadow: #f5e29682 0.2em 0.2em 0.2em;
