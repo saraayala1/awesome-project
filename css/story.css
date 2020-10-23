@@ -3,13 +3,17 @@
   padding-bottom: 60px;
   padding-top: 50px;
 }
+a,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
 body {
   background-color: black;
   font-family: "Sansita Swashed", cursive;
 }
 button {
   border-radius: 20px;
-  color: black;
   display: block;
   font-family: "Sansita Swashed", cursive;
   font-size: 20px;
