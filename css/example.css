@@ -1,0 +1,9 @@
+.blend1 img:first-child {
+  position: absolute;
+  margin: auto;
+  mix-blend-mode: overlay;
+}
+#jav {
+  margin-left: 200px;
+  margin-top: 75px;
+}

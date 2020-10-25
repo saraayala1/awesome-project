@@ -1,7 +1,12 @@
-.wholePage {
-  margin: auto;
-  padding-bottom: 60px;
-  padding-top: 20px;
+.wholePage,
+html {
+  background-attachment: fixed;
+  background-color: black;
+  background-image: url("wheel-photo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
 }
 a,
 a:visited {
@@ -9,8 +14,10 @@ a:visited {
   text-decoration: none;
 }
 body {
-  background-color: black;
   font-family: "Sansita Swashed", cursive;
+  height: 100%;
+  margin: 0;
+  margin-top: 0;
 }
 button {
   background-color: white;
@@ -30,13 +37,5 @@ button:hover {
 h1 {
   color: white;
   text-align: center;
-}
-img {
-  border-color: ivory;
-  border-radius: 8px;
-  border-style: solid;
-  border-width: 1px;
-  display: block;
-  margin: auto;
-  max-width: 400px;
+  margin-top: 45%;
 }

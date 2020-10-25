@@ -13,6 +13,7 @@ body {
   font-family: "Sansita Swashed", cursive;
 }
 button {
+  background-color: white;
   border-radius: 20px;
   display: block;
   font-family: "Sansita Swashed", cursive;
