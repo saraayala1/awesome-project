@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Precious;
+  src: url(https://www.1001fonts.com/wedding+cursive+elegant-fonts.html);
+}
 #header {
   margin: auto;
   padding-bottom: 10px;
@@ -17,10 +21,11 @@ html {
 
 .href {
   color: white;
-  font-family: "Sansita Swashed", cursive;
-  font-size: 25px;
+  font-family: Italianno;
+  font-size: 40px;
   text-decoration: none;
-  text-shadow: black 0.1em 0.1em 0.2em;
+  text-shadow: grey 0.1em 0.1em 0.2em;
+  transition: 200ms ease;
 }
 .href:hover {
   color: white;
@@ -29,7 +34,7 @@ html {
 }
 .overlay {
   opacity: 0;
-  transition: 0.5s ease;
+  transition: 400ms ease;
 }
 .overlay:hover {
   opacity: 1;
@@ -40,32 +45,24 @@ a:visited {
   text-decoration: none;
 }
 body {
+  background-attachment: fixed;
   background-image: url(black-star-background-1024x768.jpg);
-  font-family: "Sansita Swashed", cursive;
+  background-size: cover;
+  font-family: "Italianno", cursive;
   height: 100%;
   margin: 0;
-  margin-bottom: 20px;
 }
-button {
-  background-color: white;
-  border-radius: 20px;
-  display: block;
-  font-size: 20px;
-  margin: auto;
-  margin-bottom: 20px;
-  margin-top: 35px;
-  padding: 10px 20px;
-  text-shadow: #f5e29682 0.2em 0.2em 0.2em;
-}
-button:hover {
-  text-shadow: black 0.1em 0.1em 0.2em;
-}
-h1 {
+
+h1,
+h4 {
   color: white;
-  font-size: 3em;
-  font-weight: lighter;
   margin: auto;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   text-align: center;
   text-shadow: grey 0.1em 0.1em 0.2em;
+}
+h1 {
+  font-family: Precious;
+  font-size: 3em;
+  line-height: 80px;
 }
