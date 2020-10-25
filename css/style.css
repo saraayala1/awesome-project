@@ -11,7 +11,7 @@ html {
   background-image: url("knee.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 100%;
 }
 
