@@ -26,7 +26,7 @@ button {
   font-family: "Sansita Swashed", cursive;
   font-size: 20px;
   margin: auto;
-  margin-top: 15px;
+  margin-top: 250px;
   padding: 10px 20px;
   transition: 200ms;
 }
@@ -36,6 +36,8 @@ button:hover {
 }
 h1 {
   color: white;
+  font-size: 50px;
+  padding-top: 200px;
   text-align: center;
-  margin-top: 45%;
+  text-shadow: 1px 1px black;
 }
