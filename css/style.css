@@ -17,6 +17,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  box-shadow: 5px 5px 60px grey;
 }
 
 .href {
@@ -57,7 +58,7 @@ h1,
 h4 {
   color: white;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: center;
   text-shadow: grey 0.1em 0.1em 0.2em;
 }
@@ -65,4 +66,10 @@ h1 {
   font-family: Precious;
   font-size: 3em;
   line-height: 80px;
+}
+h4 {
+  font-size: 50px;
+}
+h4:hover {
+  cursor: pointer;
 }

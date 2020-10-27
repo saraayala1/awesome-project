@@ -1,42 +1,46 @@
-.wholePage {
-  margin: auto;
-  padding-bottom: 60px;
-  padding-top: 50px;
+@font-face {
+  font-family: Precious;
+  src: url(https://www.1001fonts.com/wedding+cursive+elegant-fonts.html);
+}
+
+.container,
+html {
+  background-attachment: fixed;
+  background-image: url(happy-allyson.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 5px 5px 80px grey;
+  height: 100%;
+  width: 100%;
 }
 a,
 a:visited {
   color: black;
   text-decoration: none;
+  transition: 200ms;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  text-shadow: black 10px 10px 20px;
 }
 body {
-  background-color: black;
-  font-family: "Sansita Swashed", cursive;
-}
-button {
-  background-color: white;
-  border-radius: 20px;
-  display: block;
-  font-family: "Sansita Swashed", cursive;
-  font-size: 20px;
-  margin: auto;
-  margin-top: 40px;
-  padding: 10px 20px;
-  text-shadow: #f5e29682 0.2em 0.2em 0.2em;
-}
-button:hover {
-  color: white;
-  text-shadow: black 0.1em 0.1em 0.2em;
+  background-image: url(black-star-background-1024x768.jpg);
+  background-size: cover;
+  font-family: Italianno;
+  text-align: center;
 }
 h1 {
   color: white;
-  text-align: center;
+  font-size: 50px;
 }
-img {
-  border-color: ivory;
-  border-radius: 8px;
-  border-style: solid;
-  border-width: 1px;
-  display: block;
-  margin: auto;
-  max-width: 400px;
+h1,
+h4 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-shadow: black 40px 10px 10px;
+}
+h4 {
+  font-size: 40px;
 }
