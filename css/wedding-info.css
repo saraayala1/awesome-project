@@ -1,43 +1,49 @@
-.wholePage,
-html {
+.wholePage {
   background-attachment: fixed;
-  background-color: black;
   background-image: url("wheel-photo.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  box-shadow: 5px 5px 60px grey;
   height: 100%;
+  width: 100%;
 }
 a,
 a:visited {
-  color: black;
+  color: white;
+  font-family: Italianno;
+  font-size: 40px;
+  margin-bottom: 100px;
   text-decoration: none;
+  text-shadow: grey 0.1em 0.1em 0.2em;
+  transition: 200ms ease;
+}
+a:hover {
+  text-decoration: none;
+  text-shadow: white 0.1em 0.1em 0.2em;
 }
 body {
-  font-family: "Sansita Swashed", cursive;
+  background-attachment: fixed;
+  background-image: url(black-star-background-1024x768.jpg);
+  background-size: cover;
+  font-family: "Italianno", cursive;
   height: 100%;
-  margin: 0;
-  margin-top: 0;
-}
-button {
-  background-color: white;
-  border-radius: 20px;
-  display: block;
-  font-family: "Sansita Swashed", cursive;
-  font-size: 20px;
-  margin: auto;
-  margin-top: 250px;
-  padding: 10px 20px;
-  transition: 200ms;
-}
-button:hover {
-  color: white;
-  text-shadow: black 0.2em 0.2em 0.2em;
 }
 h1 {
+  font-size: 3em;
+  line-height: 80px;
+}
+h1,
+h4 {
   color: white;
-  font-size: 50px;
-  padding-top: 200px;
+  margin: auto;
+  margin-bottom: 80px;
   text-align: center;
   text-shadow: 1px 1px black;
+}
+h4 {
+  font-size: 50px;
+}
+h4:hover {
+  cursor: pointer;
 }

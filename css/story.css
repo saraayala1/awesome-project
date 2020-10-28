@@ -16,7 +16,7 @@ html {
 }
 a,
 a:visited {
-  color: black;
+  color: white;
   text-decoration: none;
   transition: 200ms;
 }

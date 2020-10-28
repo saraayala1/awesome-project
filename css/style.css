@@ -16,22 +16,8 @@ html {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   box-shadow: 5px 5px 60px grey;
-}
-
-.href {
-  color: white;
-  font-family: Italianno;
-  font-size: 40px;
-  text-decoration: none;
-  text-shadow: grey 0.1em 0.1em 0.2em;
-  transition: 200ms ease;
-}
-.href:hover {
-  color: white;
-  text-decoration: none;
-  text-shadow: white 0.1em 0.1em 0.2em;
+  height: 100%;
 }
 .overlay {
   opacity: 0;
@@ -43,7 +29,17 @@ html {
 a,
 a:visited {
   color: white;
+  font-family: Italianno;
+  font-size: 40px;
   text-decoration: none;
+  text-shadow: grey 0.1em 0.1em 0.2em;
+  transition: 200ms ease;
+}
+a:hover {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  text-shadow: white 0.1em 0.1em 0.2em;
 }
 body {
   background-attachment: fixed;
@@ -53,7 +49,11 @@ body {
   height: 100%;
   margin: 0;
 }
-
+h1 {
+  font-family: Precious;
+  font-size: 3em;
+  line-height: 80px;
+}
 h1,
 h4 {
   color: white;
@@ -62,14 +62,7 @@ h4 {
   text-align: center;
   text-shadow: grey 0.1em 0.1em 0.2em;
 }
-h1 {
-  font-family: Precious;
-  font-size: 3em;
-  line-height: 80px;
-}
+
 h4 {
   font-size: 50px;
-}
-h4:hover {
-  cursor: pointer;
 }
