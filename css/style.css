@@ -12,7 +12,7 @@
 .bg,
 html {
   background-attachment: fixed;
-  background-image: url("knee.jpg");
+  background-image: url("javyson/knee.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,8 +42,8 @@ a:hover {
   text-shadow: white 0.1em 0.1em 0.2em;
 }
 body {
-  background-attachment: fixed;
-  background-image: url(black-star-background-1024x768.jpg);
+  background-attachment: scroll;
+  background-image: url(javyson/black-star-background-1024x768.jpg);
   background-size: cover;
   font-family: "Italianno", cursive;
   height: 100%;

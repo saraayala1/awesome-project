@@ -2,17 +2,11 @@
   font-family: Precious;
   src: url(https://www.1001fonts.com/wedding+cursive+elegant-fonts.html);
 }
-
-.container,
-html {
-  background-attachment: fixed;
-  background-image: url(happy-allyson.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: 5px 5px 80px grey;
-  height: 100%;
-  width: 100%;
+#story {
+  display: block;
+  height: 460px;
+  margin: auto;
+  width: 345px;
 }
 a,
 a:visited {
@@ -26,7 +20,7 @@ a:hover {
   text-shadow: black 10px 10px 20px;
 }
 body {
-  background-image: url(black-star-background-1024x768.jpg);
+  background-image: url(javyson/black-star-background-1024x768.jpg);
   background-size: cover;
   font-family: Italianno;
   text-align: center;
@@ -43,4 +37,11 @@ h4 {
 }
 h4 {
   font-size: 40px;
+}
+img {
+  align-content: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px 80px grey;
+  margin: auto;
+  position: center;
 }
