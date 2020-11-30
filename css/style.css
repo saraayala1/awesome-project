@@ -42,12 +42,18 @@ a:hover {
   text-shadow: white 0.1em 0.1em 0.2em;
 }
 body {
-  background-attachment: scroll;
-  background-image: url(javyson/black-star-background-1024x768.jpg);
+  align-items: center;
+  animation: animation 100s linear infinite;
+  background: url(javyson/black-star-background-1024x768.jpg);
   background-size: cover;
+  display: flex;
   font-family: "Italianno", cursive;
   height: 100%;
+  justify-content: center;
   margin: 0;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  width: 100%;
 }
 h1 {
   font-family: Precious;
@@ -65,4 +71,9 @@ h4 {
 
 h4 {
   font-size: 50px;
+}
+@keyframes animation {
+  100% {
+    background-position: 0px -3000px;
+  }
 }
